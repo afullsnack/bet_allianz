@@ -14,6 +14,13 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-end bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
       <div className="container flex flex-col items-center justify-center gap-12 px-4 sm:px-8 py-16 ">
+          <h1 className="text-lg font-extrabold dark:text-white text-black tracking-tight sm:text-[4rem]">
+            Bet <span className="text-[hsl(280,100%,70%)]">Allianz</span>
+          </h1>
+          <span className="text-lg font-semibold dark:text-white text-black tracking-tight sm:text-[1rem]">
+            P2P sports betting at its finest, don't just beat the house, own it.
+          </span>
+
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 md:gap-8">
           <Link
             className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 hover:bg-white/20"
@@ -26,7 +33,7 @@ export default async function Home() {
             </div>
           </Link>
           <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl col-span-1 sm:max-w-fit sm:col-span-2 bg-white/10 p-4 hover:bg-white/20"
+            className="flex max-w-xs flex-col gap-4 rounded-xl col-span-1 sm:max-w-content sm:col-span-2 bg-white/10 p-4 hover:bg-white/20"
             href="https://create.t3.gg/en/introduction"
             target="_blank"
           >
