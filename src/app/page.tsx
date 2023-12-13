@@ -1,4 +1,11 @@
-import { ArrowRight, Bitcoin, ShieldOff, Swords, Trophy } from "lucide-react";
+import {
+  ArrowRight,
+  Bitcoin,
+  ShieldOff,
+  Swords,
+  Trophy,
+  Twitter,
+} from "lucide-react";
 import Link from "next/link";
 import { Button } from "~/components/ui/button";
 import { Card, CardContent } from "~/components/ui/card";
@@ -99,6 +106,22 @@ export default async function Home() {
             </CardContent>
           </Card>
         </div>
+      </div>
+      <div className="grid w-full items-center justify-center bg-slate-700 py-3 sm:flex">
+        <span className="text-center">Built with 💟 by</span>
+
+        <Link
+          href="https://x.com/afullsnack"
+          passHref
+          target="_blank"
+          className="mx-2 flex items-center justify-center gap-1 text-center text-[hsl(280,100%,70%)]"
+        >
+          afullsnack <Twitter className="text-[hsl(280,100%,70%)]" size={12} />
+        </Link>
+
+        <span className="text-center">
+          of AllianzTeam for the Web5 Hackathon
+        </span>
       </div>
     </main>
   );
