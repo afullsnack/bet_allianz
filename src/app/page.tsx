@@ -44,8 +44,8 @@ export default async function Home() {
                   Instant Payout
                 </h1>
                 <span className="text-sm font-normal tracking-tight text-black dark:text-white sm:text-[1rem]">
-                  Get instant to your bitcoin/lightning wallet as soon as
-                  transaction is done.
+                  Instant pot wins to your bitcoin/lightning wallet connected to
+                  the platform.
                 </span>
               </div>
             </CardContent>
